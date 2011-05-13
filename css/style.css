@@ -1,0 +1,85 @@
+body {
+    background-color: #222;
+    margin: 0px;
+    overflow: hidden;
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: #ccc;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+p{
+ text-shadow: 0 2px 3px #000;	
+}
+
+h1 {
+    font-family: 'Lobster', arial, serif;
+    font-size: 42px;
+    color: #eee;
+    text-shadow: 0 1px 0 #fff, 0 -1px 0 #000, 0 2px 3px #000;
+}
+
+#container {
+    width: 900px;
+    height: 500px;
+    background-color: #000;
+    -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+	visibility: hidden;
+	
+	
+}
+
+#overlay {
+    background-image: url("../img/over.png");
+    background-repeat: repeat;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+	
+	
+	
+
+	
+}
+
+#no_webgl{
+	font-size: 20px;
+	margin-top:220px;
+ 	width: 100%;
+}
+
+#header {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    z-index: 100;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 100;
+}
+
+#info {
+    color: #fff;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    padding: 5px;
+    z-index: 100;
+}
+
+
+
